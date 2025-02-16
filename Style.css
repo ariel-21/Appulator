@@ -14,7 +14,7 @@ body {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 300px;
 }
@@ -73,6 +73,11 @@ button:hover {
     color: white;
 }
 
+#error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
 
 @media (max-width: 400px) {
     .calculator {

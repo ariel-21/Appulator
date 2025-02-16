@@ -1,6 +1,6 @@
 // Function to validate user input
 function validateInput(value) {
-    return !isNaN(value) && value.trim() !== ""; // Checks if input is a valid number
+    return !isNaN(value) && value.trim() !== ""; 
 }
 
 // Function to display error message
